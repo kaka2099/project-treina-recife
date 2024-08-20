@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images.blz-contentstack.com/v3/assets/blt2477dcaf4ebd440c/blte4d5570ae276d3f4/6388105b273de01068bb280e/tracer-01.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-style: oblique;
+}
+
+.container-nav{
+    padding: .5em;
+}
+
+#nav-bar {
+    display: flex;
+    border: rgba(0, 0, 0, 0.048) solid 1px;
+    justify-content: space-between;
+
+    background-color: #6d6a6ab7;
+    border-radius: 15px;
+
+}
+
+
+#links a{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+
+    border: solid 1px rgba(0, 0, 0, 0);
+    padding: .5em 1em .5em 1em;
+    height: 3em;
+    align-items: center;
+
+
+    border-radius: 13px;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0.4s;
+    background-color: orangered;
+
+
+}
+
+
+
+#links a:hover{
+    transform: translateY(-1px);
+    color: orangered;
+    background-color: #202020;
+    box-shadow: 5px 5px 30px rgb(145, 72, 5);
+    background-color: #ffffff;
+    
+}
+
+#links {
+    display:flex;
+    width: 17em;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: .5em;
+    
+}
+
+.container-logo{
+    padding: .5em;
+    height: 5em;
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+
+}
+
+.fotos{
+    width: calc(100%);
+    height: 13em;
+}
+
+.fotos img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+   
+}
+
+.perfil a{
+    text-decoration: none;
+}
+.perfil {
+    padding: .4em;
+    cursor: pointer;
+    width: 15em;
+
+    background-color: #f8f5f5dc;
+    border-radius: 20px;
+    transition: 0.4s;
+    box-shadow: 0.4s;
+    
+    
+}
+
+.perfil:hover{
+    transform: translateY(-8px);
+    box-shadow: 2px 3px 30px rgb(245, 245, 245);
+    
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+
+}
+
+.perfil h1{
+    color: orangered;
+
+    margin: .5em 0 .5em 0;
+}
+
+
+
+#tudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 760px){
+    #tudo{
+        flex-direction: column;
+        align-items: center;
+
+        height: 170vh;
+    }
+
+    .perfil{
+
+    }
+}
